@@ -1,3 +1,5 @@
+import javax.sound.sampled.SourceDataLine;
+
 public class Caneta4 {
 
     public String modelo;
@@ -22,4 +24,5 @@ public class Caneta4 {
         System.out.println("Modelo: "+ this.modelo);
         System.out.println("Ponta: "+ this.ponta);
     }
+    
 }  
